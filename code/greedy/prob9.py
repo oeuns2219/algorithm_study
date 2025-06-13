@@ -31,4 +31,4 @@ def solution(food_times, k):
 
     print(res)
 
-solution([3,2,1,0,3], 8)
+solution([3,2,1,0,3], 10)
