@@ -32,4 +32,3 @@ for _ in range(n):
     game_map.append(list(map(int, input().split())))
 
 print(travel(x_cor, y_cor, direction, direction, 1))
-print(game_map)
