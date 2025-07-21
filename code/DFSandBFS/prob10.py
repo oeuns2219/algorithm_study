@@ -51,7 +51,6 @@ def solution(board):
             new_x = x + dx[i]
             new_y = y + dy[i]
             if cur_board[new_x][new_y] == 0:
-                print('0', new_x, new_y)
                 cur_board[new_x][new_y] = time + 1
                 queue.append((cur, new_x, new_y))
 
@@ -61,11 +60,9 @@ def solution(board):
             nx = tx + dnx
             ny = ty + dny
             if turn_board[tx][ty] == 0:
-                print('1', tx, ty)
                 turn_board[tx][ty] = time + 1
                 queue.append((turn, tx, ty))
             if turn_board[nx][ny] == 0:
-                print('2', nx, ny)
                 turn_board[nx][ny] = time + 1
                 queue.append((turn, nx, ny))
 
@@ -73,11 +70,9 @@ def solution(board):
             nx = x + dnx
             ny = y + dny
             if turn_board[x][y] == 0:
-                print('3', x, y)
                 turn_board[x][y] = time + 1
                 queue.append((turn, x, y))
             if turn_board[nx][ny] == 0:
-                print('4', nx, ny)
                 turn_board[nx][ny] = time + 1
                 queue.append((turn, nx, ny))
 
