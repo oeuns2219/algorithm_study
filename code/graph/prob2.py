@@ -4,8 +4,8 @@ def find(parent, x):
     return parent[x]
 
 def union(parent, x, y):
-    px = parent[x]
-    py = parent[y]
+    px = find(parent, x)
+    py = find(parent, y)
 
     if px < py:
         parent[py] = px
