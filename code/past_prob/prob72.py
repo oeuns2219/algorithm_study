@@ -2,7 +2,10 @@
 
 direct = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 di_dict = {'N': 0, 'E': 1, 'S': 2, 'W': 3}
-
+'''
+백준 문제 풀이
+2174 로봇 시뮬레이션
+'''
 A, B = map(int, input().split())
 N, M = map(int, input().split())
 graph = [[0] * A for _ in range(B)]

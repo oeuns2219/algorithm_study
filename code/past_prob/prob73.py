@@ -1,5 +1,8 @@
 from bisect import bisect_left
-
+'''
+백준 문제 풀이
+2983 개구리 공주
+'''
 direct = [(1, 1), (1, -1), (-1, 1), (-1, -1)]
 di_dict = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
 

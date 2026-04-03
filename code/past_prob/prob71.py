@@ -1,5 +1,8 @@
 from collections import deque
-
+'''
+백준 문제 풀이
+2234 성곽
+'''
 direct = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 
 def wall(k):
